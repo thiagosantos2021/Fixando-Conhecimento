@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue";
+}
+
+html,body {
+    height: 100%;
+}
+
+.parent {
+    display: flex;
+}
+
+.content {
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    left: 15%;
+    overflow-y: auto;
+    padding: 0 5%;
+}
+
+.sidebar {
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(127, 255, 176);
+}
+
+.sidebar-pos{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img-sidebar {
+    text-align: center;
+}
+
+.img-sidebar img{
+    width: 50%;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+.menu {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.menu a {
+    color: black;
+    opacity: 0.5;
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.menu a.selected{
+    opacity: 1;
+}
+
+section.description {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section.description h1 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+section.description h2,h3,h4 {
+    margin: 10px 0;
+}
+
+section.description p {
+    margin: 15px;
+    font-size: 20px;
+    color: rgb(12, 125, 255);
+}
+
+.social-icons a{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
